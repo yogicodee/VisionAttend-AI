@@ -1,0 +1,11 @@
+{
+  "name": "VisionAttend AI",
+  "description": "Sistem Absensi Pintar dengan AI Face Recognition, Anti-Spoofing Liveness Detection, Verifikasi Lokasi GPS Geofencing, Analitik Kedisiplinan Karyawan, dan Chatbot Asisten HR terpadu.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
