@@ -3,7 +3,6 @@
 VisionAttend AI adalah platform absensi berbasis kecerdasan buatan (Artificial Intelligence) dengan tampilan modern, futuristik, profesional, dan *user-friendly* berstandar *enterprise*. Sistem dirancang untuk menangkal titip absen (*anti-spoofing liveness detection*), memverifikasi keabsahan lokasi koordinat GPS secara akurat (*geofencing*), menyajikan analitik performa otomatis dengan Google Gemini AI, serta mengintegrasikan Chatbot Asisten HR cerdas demi efisiensi operasional harian.
 
 ---
-
 ## 🎨 Gambaran Estetika UI & Arsitektur
 - **Tema Visual**: Sleek Interface bertema futuristik gelap (glowing neon blue & cosmic purple) berpadu tekstur *Glassmorphism* modern.
 - **Teknologi Utama**:
@@ -13,7 +12,6 @@ VisionAttend AI adalah platform absensi berbasis kecerdasan buatan (Artificial I
   - **Keamanan**: GPS Haversine Geofencing (150 meter limit) dan Blockchain-simulated Face Registries.
 
 ---
-
 ## 📂 Struktur Utama Project
 
 ```text
@@ -34,5 +32,13 @@ VisionAttend AI adalah platform absensi berbasis kecerdasan buatan (Artificial I
     └── components/
         └── LandingPage.tsx # Landing Page Interaktif VisionAttend AI
 ```
+
+---
+## 🛣️ Alur Verifikasi Kehadiran VisionAttend AI
+Sistem absensi memproses setiap rekam jejak karyawan melalui rantai otentikasi ketat:
+1. **Face Geometrical Analysis & Liveness Check (AI Server)**: Membaca potret wajah secara real-time, mendeteksi pola kelopak mata, tingkat percaya diri pencocokan (*confidence score*), dan memblokir visual statis cetak foto gawai (Anti-Spoofing).
+2. **GPS Geofence Tracking**: Memeriksa koordinat satelit terkunci dan menghitung radius jarak terhadap pusat pangkalan Menara VisionAttend Sudirman (maksimum toleransi 150m).
+3. **Pencatatan Log & Gemini AI Analytics**: Menandai tingkat kedisiplinan (Hadir, Lambat >08:30 WIB, Izin) dan merangkum diagram grafik interaktif beserta saran otomatis performa organisasi.
+4. **Interactive HR Assistant**: Asisten ramah bertenaga AI siap menjawab pertanyaan aturan cuti, kalkulasi denda, atau mendaftarkan ulang wajah.
 
 ---
