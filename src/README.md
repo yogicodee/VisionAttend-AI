@@ -42,3 +42,30 @@ Sistem absensi memproses setiap rekam jejak karyawan melalui rantai otentikasi k
 4. **Interactive HR Assistant**: Asisten ramah bertenaga AI siap menjawab pertanyaan aturan cuti, kalkulasi denda, atau mendaftarkan ulang wajah.
 
 ---
+## ⚡ Instalasi dan Penginstalan Lokal
+
+Ikuti langkah cepat berikut untuk menjalankan sistem VisionAttend AI di komputer lokal Anda:
+
+### 1. Prasyarat Sistem
+Pastikan Node.js (versi >= 18.x) dan npm sudah terinstal di komputer Anda.
+
+### 2. Kloning dan Instal Dependensi
+```bash
+# Instal paket dependensi yang dideklarasikan di package.json
+npm install
+```
+
+### 3. Konfigurasi Kunci Enkripsi .env
+Buat file bernama `.env` di direktori utama lalu tambahkan kode kredensial Anda:
+```env
+GEMINI_API_KEY="ISI_DENGAN_API_KEY_GEMINI_ANDA"
+APP_URL="http://localhost:3000"
+```
+
+### 4. Jalankan Server Pengembangan (Dev Mode)
+```bash
+npm run dev
+```
+Buka peramban browser Anda di alamat `http://localhost:3000`.
+
+---
