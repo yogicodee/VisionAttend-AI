@@ -69,3 +69,19 @@ npm run dev
 Buka peramban browser Anda di alamat `http://localhost:3000`.
 
 ---
+## ⚙️ Panduan Manajemen Pemeliharaan Produksi
+
+### Eksekusi Build Kompilasi
+Untuk menghasilkan berkas bundle JavaScript statis untuk disajikan stabil ke server Cloud hosting Anda:
+```bash
+npm run build
+```
+Perintah di atas akan mengeksekusi kompilasi esbuild dan mengemas backend server statis ke dalam lintasan mandiri di folder `dist/server.cjs` yang tervalidasi bebas dari konflik ES Module Node.js.
+
+### Menjalankan Server Produksi
+```bash
+npm run start
+```
+Sistem akan langsung mendengarkan lalu lintas server rujukan pada port `3000`.
+
+---
