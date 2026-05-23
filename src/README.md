@@ -13,3 +13,26 @@ VisionAttend AI adalah platform absensi berbasis kecerdasan buatan (Artificial I
   - **Keamanan**: GPS Haversine Geofencing (150 meter limit) dan Blockchain-simulated Face Registries.
 
 ---
+
+## 📂 Struktur Utama Project
+
+```text
+├── .env.example            # Kerangka konfigurasi enkripsi API Key Gemini
+├── .gitignore              # Proteksi penyimpanan build artifacts
+├── index.html              # Entry point HTML5 utama
+├── metadata.json           # Izin perangkat keras (Camera, Geolocation) & metadata platform
+├── package.json            # Daftar dependensi & script build produksi CJS
+├── tsconfig.json           # Standarisasi kompilasi TypeScript
+├── vite.config.ts          # Konfigurasi plugin React & optimasi CPU Watcher
+├── server.ts               # Core Backend Server Express & Integrasi Gemini GenAI
+├── README.md               # Dokumentasi panduan operasional (File ini)
+└── src/
+    ├── main.tsx            # Entry rendering React DOM
+    ├── index.css           # Styling warna khusus & animasi laser scanning
+    ├── types.ts            # Standarisasi tipe data TypeScript (User, Attendance, Chat)
+    ├── App.tsx             # Workspace utama & orchestrator tab halaman aplikasi
+    └── components/
+        └── LandingPage.tsx # Landing Page Interaktif VisionAttend AI
+```
+
+---
