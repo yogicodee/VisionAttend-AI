@@ -1,17 +1,3 @@
-<img width="1357" height="536" alt="image" src="https://github.com/user-attachments/assets/fb5fb7f1-c6e1-46c0-aeba-60fab3a7f20f" />
-<img width="1337" height="428" alt="image" src="https://github.com/user-attachments/assets/016b3f99-a672-4605-b8f8-e3093a6501d8" />
-<p align="center"><img width="637" height="451" alt="image" src="https://github.com/user-attachments/assets/710ddd48-b5ab-429c-bfa4-f3392cde4637" /></p>
-<p align="center"><img width="686" height="638" alt="image" src="https://github.com/user-attachments/assets/56edab47-ec10-49be-8fba-948fe4d4e843" /></p>
-<p align="center"><img width="878" height="604" alt="image" src="https://github.com/user-attachments/assets/38b56ee9-285f-4585-b046-856f13a1f86e" /></p>
-<p align="center"><img width="907" height="545" alt="image" src="https://github.com/user-attachments/assets/2eb73507-47fc-459f-b48c-435cf2a0d2fb" /></p>
-<p align="center"><img width="878" height="657" alt="image" src="https://github.com/user-attachments/assets/f062f25d-bd8f-4aec-a310-bf790554fefa" /></p>
-<p align="center"><img width="880" height="528" alt="image" src="https://github.com/user-attachments/assets/cfddb6f4-513b-4940-a1ba-44d33006da09" /></p>
-
-
-
-
-
-
 
 
 # VisionAttend AI - Sistem Absensi Pintar dengan AI Face Recognition & Geofencing 🚀
@@ -26,7 +12,17 @@ VisionAttend AI adalah platform absensi berbasis kecerdasan buatan (Artificial I
   - **Backend**: Node.js / Express untuk server-side proxy API dan rendering statis terpadu.
   - **AI Model**: Google Gemini 3.5 Flash SDK via API Server-Side untuk instan analisis foto *Selfie Liveness* (Anti-Spoofing 2D/3D screen match) dan Analisis Pola Kedisiplinan Tim.
   - **Keamanan**: GPS Haversine Geofencing (150 meter limit) dan Blockchain-simulated Face Registries.
+___
+##   Preview Aplikasi
 
+<img width="1357" height="536" alt="image" src="https://github.com/user-attachments/assets/fb5fb7f1-c6e1-46c0-aeba-60fab3a7f20f" />
+<img width="1337" height="428" alt="image" src="https://github.com/user-attachments/assets/016b3f99-a672-4605-b8f8-e3093a6501d8" />
+<p align="center"><img width="637" height="451" alt="image" src="https://github.com/user-attachments/assets/710ddd48-b5ab-429c-bfa4-f3392cde4637" /></p>
+<p align="center"><img width="686" height="638" alt="image" src="https://github.com/user-attachments/assets/56edab47-ec10-49be-8fba-948fe4d4e843" /></p>
+<p align="center"><img width="878" height="604" alt="image" src="https://github.com/user-attachments/assets/38b56ee9-285f-4585-b046-856f13a1f86e" /></p>
+<p align="center"><img width="907" height="545" alt="image" src="https://github.com/user-attachments/assets/2eb73507-47fc-459f-b48c-435cf2a0d2fb" /></p>
+<p align="center"><img width="878" height="657" alt="image" src="https://github.com/user-attachments/assets/f062f25d-bd8f-4aec-a310-bf790554fefa" /></p>
+<p align="center"><img width="880" height="528" alt="image" src="https://github.com/user-attachments/assets/cfddb6f4-513b-4940-a1ba-44d33006da09" /></p>
 ---
 ## 📂 Struktur Utama Project
 
