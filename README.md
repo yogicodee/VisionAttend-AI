@@ -1,3 +1,5 @@
+<img width="1357" height="536" alt="image" src="https://github.com/user-attachments/assets/fb5fb7f1-c6e1-46c0-aeba-60fab3a7f20f" />
+
 # VisionAttend AI - Sistem Absensi Pintar dengan AI Face Recognition & Geofencing 🚀
 
 VisionAttend AI adalah platform absensi berbasis kecerdasan buatan (Artificial Intelligence) dengan tampilan modern, futuristik, profesional, dan *user-friendly* berstandar *enterprise*. Sistem dirancang untuk menangkal titip absen (*anti-spoofing liveness detection*), memverifikasi keabsahan lokasi koordinat GPS secara akurat (*geofencing*), menyajikan analitik performa otomatis dengan Google Gemini AI, serta mengintegrasikan Chatbot Asisten HR cerdas demi efisiensi operasional harian.
