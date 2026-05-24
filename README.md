@@ -1,4 +1,9 @@
 <img width="1357" height="536" alt="image" src="https://github.com/user-attachments/assets/fb5fb7f1-c6e1-46c0-aeba-60fab3a7f20f" />
+<img width="1337" height="428" alt="image" src="https://github.com/user-attachments/assets/016b3f99-a672-4605-b8f8-e3093a6501d8" />
+
+
+
+
 
 # VisionAttend AI - Sistem Absensi Pintar dengan AI Face Recognition & Geofencing 🚀
 
