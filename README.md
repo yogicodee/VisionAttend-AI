@@ -101,3 +101,4 @@ Sistem akan langsung mendengarkan lalu lintas server rujukan pada port `3000`.
 - **Zero Client Leak**: Seluruh instruksi Gemini API Key hanya dieksekusi terlindung di dalam `server.ts` (API Proxy) sehingga rahasia autentikasi Anda aman dari penelusuran console browser.
 - **Anti-GPS Mocking**: Dukungan kontrol satelit dengan validasi formula matematika Haversine pada server guna menolak perubahan koordinat fiktif dari modul proxy pihak ketiga.
 - **Input Sanitization**: Meningkatkan batas payload gambar (base64) hingga 15MB untuk pemrosesan lancar UHD kamera visual tanpa kebocoran memori.
+Testing YOLO Achievement.
