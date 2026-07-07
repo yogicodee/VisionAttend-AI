@@ -103,4 +103,4 @@ Sistem akan langsung mendengarkan lalu lintas server rujukan pada port `3000`.
 - **Input Sanitization**: Meningkatkan batas payload gambar (base64) hingga 15MB untuk pemrosesan lancar UHD kamera visual tanpa kebocoran memori.
 Testing YOLO Achievement.
 Testing Pull Shark Achievement.
-Testing Pair Extraordinaire Achievement.
+
